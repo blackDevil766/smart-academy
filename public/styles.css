@@ -243,13 +243,14 @@ p {
 /*       helf number ONE in top section     */
 
 .continar {
-    width: 70%;
+    width: 86%;
     height: 90vh;
     margin: 0px auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .topContinarHalf1 {
     flex-direction: column;
@@ -1416,6 +1417,9 @@ li.li4 {
     display: block;
 }
 
+.contactLeftPart{
+    width: 100%;
+}
 
 .discriptionTyper {
     display: inline-block;
@@ -1605,6 +1609,7 @@ h5 {
 @media only screen and (max-width: 940px) {
     .AboutSection {
         display: grid;
+        text-align: center;
     }
 
     .navLogo {
@@ -1624,6 +1629,17 @@ h5 {
         display: flex;
         align-items: center;
         flex-direction: column-reverse;
+        height: 100%;
+    }
+    .topText {
+        font-size: 47px;
+        line-height: 64px;
+    }
+    .AboutSection img{
+        width: 70vw;
+    }
+    .openingImg {
+        max-width: 440px;
     }
     .AhencyIcons {
         display: grid;
@@ -1705,6 +1721,12 @@ h5 {
         align-items: center;
         width: 90%;
         margin: 20px auto;
+    }
+    .descoverSection1 div {
+        display: grid;
+    }
+    .descoverSection1 button {
+        height: 100%;
     }
     .topContinarHalf1 {
         width: 100%;
